@@ -4,6 +4,7 @@ android_app_import {
         apk: "SettingsIntelligenceGooglePrebuilt.apk",
         overrides: ["SettingsIntelligence"],
         presigned: true,
+        preprocessed: true,
         dex_preopt: {
                 enabled: false,
         },
